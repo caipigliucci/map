@@ -28,6 +28,9 @@ html, body {
     font-size: 16px;
     background-color: #FEF4F4;
     font-family: georgia, serif;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: #FFB0D3;
 }
 
 img {
@@ -38,9 +41,17 @@ img {
     max-width: 800px;
     margin: 0 auto;
     padding: 5px;
-    border-style: dotted;
-    border-width: 5px;
-    border-color: #FFB0D3;
+}
+
+.container.image {
+    max-width: 1200px;
+    padding: 0;
+}
+
+.container.image iframe {
+    border: 0;
+    width: 100%;
+    min-height: 65vh;
 }
 
 .caption {
@@ -54,10 +65,7 @@ img {
     margin: 0 auto;
 }
 
-.flex-image {
-    max-width: 500px;
-    margin: 0 auto;
-}
+.
 
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
